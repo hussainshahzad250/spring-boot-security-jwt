@@ -1,12 +1,12 @@
 package com.security.controllers;
 
-import com.security.models.Role;
+import com.security.entity.Role;
 import com.security.enums.RoleType;
-import com.security.models.User;
-import com.security.payload.request.LoginRequest;
-import com.security.payload.request.SignupRequest;
-import com.security.payload.response.JwtResponse;
-import com.security.payload.response.MessageResponse;
+import com.security.entity.User;
+import com.security.request.LoginRequest;
+import com.security.request.SignupRequest;
+import com.security.response.JwtResponse;
+import com.security.response.MessageResponse;
 import com.security.repository.RoleRepository;
 import com.security.repository.UserRepository;
 import com.security.security.jwt.JwtUtils;

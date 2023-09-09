@@ -1,8 +1,8 @@
 package com.security;
 
-import com.security.models.Role;
+import com.security.entity.Role;
 import com.security.enums.RoleType;
-import com.security.models.User;
+import com.security.entity.User;
 import com.security.repository.RoleRepository;
 import com.security.repository.UserRepository;
 import org.springframework.boot.CommandLineRunner;

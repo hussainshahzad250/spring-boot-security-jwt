@@ -1,4 +1,4 @@
-package com.security.payload.request;
+package com.security.request;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;

@@ -1,4 +1,4 @@
-package com.security.models;
+package com.security.entity;
 
 import com.security.enums.RoleType;
 import jakarta.persistence.*;

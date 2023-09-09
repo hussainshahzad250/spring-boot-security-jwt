@@ -1,4 +1,4 @@
-package com.security.payload.response;
+package com.security.response;
 
 import java.util.List;
 
